@@ -1,0 +1,23 @@
+List out the key difference between a centralized version control system and distributed version control system
+1) CVCs keep the history of changes on central server while DVCs has local copy of work history
+2) CVCs gives more access control by allowing checkout sub tree from  repository tree but DVCs are faster and easier to work on
+3) CVCs need Internet connection to access and do operations where in DVCs most of the operations are done locally without Internet
+4) CVCs don't take much space as version control is easy but DVCs can take much space if history of changes is more
+
+List down any two centralized version control system and 2 distributed version control system
+Distributed VCS: Git, Mercurial.
+Centralized VCS: CVS, Perforce, SVN.
+
+What are the advantages of git VCS over other VCS
+Distributed model: This means your work is your own. You can let others see only what is necessary. Not everything has to be public. There are other advantages to the distributed model, such as the speed (since most everything is local) and possibility of working offline
+Branching and merging are easy: Branching is a walk in the park. It feels like a natural part of the work-flow. They are cheap (fast and consume very little space) so that you can branch whenever you want. This means you can sandbox your features and ideas till they are ready for the mainstream.
+Work-flow is flexible: Compared to Centralized VCS, git has the qualities that allow to choose your own work-flow. It can be as simple as a centralized work-flow to as hierarchical as the dictator-lieutenant workflow. Use the process that best fits you.
+Data integrity is assured: Because git uses SHA1 trees, data corruption due to external reasons can be easily detected.
+Fast: Git is very fast, even when compared to other DVCS, for local as well as network operations
+Staging area: Make sure your commits have logically grouped changes and not everything else you are working on.
+Free: You don't need to spent on Version Control as git is free
+
+What are the different states of a file in the Git VCS
+Untracked: the file exists, but is not part of git's version control
+Staged: the file has been added to git's version control but changes have not been committed
+Committed: the change has been committed
